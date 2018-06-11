@@ -1,14 +1,21 @@
+@font-face{
+    font-family: 'Cantarell';
+    src : url('fonts/Cantarell-Regular.ttf') format('truetype');
+}
+
 body{
     margin: 0px;
     padding: 0px;
     
-    background-image: url('medias/BG.jpg');
+    background-image: url('medias/BG(2).jpg');
     background-repeat: repeat-y;
+    font-family: Cantarell;
 }
 
 header{
     display : block;
     
+    color : #34495e;
     text-align: center;
     
     border : 3px #34495e solid;
@@ -54,12 +61,13 @@ nav > ul > li{
 
 nav > ul > li > a{
     padding: 20px 30px;
-    color: white;
+    color: #1a5276 ;
     
 }
 
-nav> ul>li:hover a{
+nav> ul>li:hover > a{
     padding: 17px 30px 20px 30px;
+    font-weight: bold;
 }
 
 .submenu{
@@ -67,8 +75,8 @@ nav> ul>li:hover a{
 }
 
 .submenu li{
-    border-bottom: 1px white solid;
-    background-color: rgba(255,255,255,0.2);
+    border-bottom: 1.5px #34495e solid;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .submenu li a{
@@ -81,7 +89,7 @@ nav> ul>li:hover a{
 
 .submenu li:hover a{
     font-weight: bold;
-    background-color: rgba(255,255,255,0.4)
+    background-color: rgba(255,255,255,0.5)
 }
 
 nav li:hover ul{
@@ -96,4 +104,20 @@ nav li:hover ul{
 .menu:hover{
     border-top: 3px white solid;
     background-color: rgba(255,255,255,0.2);
+}
+
+#presentation{
+    margin: 120px 200px;
+    text-align: justify;
+}
+
+.center{
+    text-align: center;
+}
+
+
+
+footer{
+    text-align: right;
+    margin : 10px;
 }
