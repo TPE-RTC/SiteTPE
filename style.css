@@ -21,6 +21,8 @@ header{
     border : 3px #34495e solid;
     
     background-color: rgba(52, 73, 94, 0.2);
+    
+    margin-bottom: 100px;
 }
 
 #title{
@@ -106,8 +108,8 @@ nav li:hover ul{
     background-color: rgba(255,255,255,0.2);
 }
 
-#presentation{
-    margin: 120px 20%;
+article{
+    margin: 0px 20% 50px 20%;
     text-align: justify;
 }
 

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'/>
+	<link rel='stylesheet' href='style.css'/>
+	<title>TPE de Clément, Romain et Théo</title>
+</head>
+
+<body>
+	<header>
+        <p id='title'>TPE 2018</p>
+        <p id='subtitle'>Clément, Romain et Théo <br/> 1S<sub>3</sub> </p>
+        
+        <nav>  
+        <ul>
+            <li class='menu'><a href="index.html">Acceuil</a></li>
+            
+             <li class='menu'><a href="2.html">Menu 2...</a>
+                <ul class='submenu'>
+                    <li><a>Sub 1...</a></li>
+                    <li><a>Sub 2...</a></li>
+                </ul>
+            </li>
+            
+             <li class='menu'><a href="3.html">Menu 3...</a>
+                <ul class='submenu'>
+                    <li><a>Sub 1...</a></li>
+                    <li><a>Sub 2...</a></li>
+                </ul>
+            </li>
+            
+        </ul>
+    </nav>
+    </header>
+    
+    <article id='RecepteurIR'>
+        <h2 class='center'><u>Le récepteur infrarouge</u></h2>
+        <p>
+        Pour contrôler notre modèle, nous avons choisi d'utiliser une télécommande infrarouge, et par conscéquent un récepteur infrarouge qui va interpréter les signaux infrarouges de la télécommande pour les retransmettre à la <a href='page_connaissances.html#Arduino' title="Plus de renseignements sur la carte programmable">carte programmable</a> qui va utiliser ces informations.
+        <br/>
+        
+        <figure class='center'>
+            <img src="medias/spectre-infrarouge.png" alt="Schéma du spectre lumineux"/>
+            <figcaption><em>Schéma du spectre lumineux</em></figcaption>
+        </figure>
+        L'infrarouge est un domaine d'ondes électromagnétiques, qui comprend les ondes avec une longueur située entre 800nm et 10<sup>6</sup>nm. Notre récepteur infrarouge quant à lui capte des ondes avec une longueur aux alentours de 940nm (proche infrarouge).
+        </p>
+        <p>On utilise l'infrarouge car ces ondes sont invisible à l'oeil nu (d'ailleurs on peut voir ces ondes infrarouges avec certains appareils photo). On envoi donc des séquences de flashs lumineux sans que ça ne dérange personne, si l'on avait utilisé une onde lumineuse dans le domaine du visible, on aurait parfois des centaines de flashs sortant de nos télécommandes (l'information envoyée étant codée en signaux lumineux).</p>
+        
+        <p><em>On utilise d'ailleurs l'infrarouge tous les jours, les télécommandes de télévision ou autres marchent à l'infrarouge (petite LED située au bout des télécommandes) 
+        </em></p>
+    </article>
+</body>
+</html>
