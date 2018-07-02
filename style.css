@@ -8,7 +8,7 @@ body{
     padding: 0px;
     
     background-image: url('medias/BG(2).jpg');
-    background-repeat: repeat;
+    background-attachment: fixed;
     font-family: Cantarell;
 }
 
@@ -122,4 +122,8 @@ article{
 footer{
     text-align: right;
     margin : 10px;
+}
+
+#pros{
+    text-align: justify;
 }

@@ -33,7 +33,7 @@
             
             <li class='menu'><a href="aides-outils.html">Nos Aides & Outils</a>
                 <ul class='submenu'>
-                    <li><a href="aides-outils.html#professionnels">Professionnels consultés</a></li>
+                    <li><a href="aides-outils.html#pros">Professionnels consultés</a></li>
                     <li><a href="aides-outils.html#3d">L'impression 3D</a></li>
                     <li><a href="aides-outils.html#sito">Sitographie</a></li>
                 </ul>
@@ -48,26 +48,42 @@
     
     <article id='Arduino'>
         <h2 class='center'><u>La carte programmable</u></h2>
+        
+        <p>
+            Pour commander notre véhicule, nous avons utilisé une carte programmable afin de capter des signaux infrarouges, de les interpréter puis d'activer nos moteurs  en fonction des signaux reçus.
+        </p>
+        
         <figure class='center'>
             <img src='medias/arduino.jpg'/>
+            <figcaption><em>Carte programmable Arduino UNO</em></figcaption>
         </figure>
+        
+        <p>
+            
+        </p>
     </article>
     
     <article id='RecepteurIR'>
         <h2 class='center'><u>Le récepteur infrarouge</u></h2>
+        
         <p>
-        Pour contrôler notre modèle, nous avons choisi d'utiliser une télécommande infrarouge, et par conscéquent un récepteur infrarouge qui va interpréter les signaux infrarouges de la télécommande pour les retransmettre à la <a href='page_connaissances.html#Arduino' title="Plus de renseignements sur la carte programmable">carte programmable</a> qui va utiliser ces informations.
-        <br/>
+            Pour contrôler notre modèle, nous avons choisi d'utiliser une télécommande infrarouge, et par conscéquent un récepteur infrarouge qui va interpréter les signaux infrarouges de la télécommande pour les retransmettre à la <a href='page_connaissances.html#Arduino' title="Plus de renseignements sur la carte programmable">carte programmable</a> qui va utiliser ces informations.
+        <p/>
         
         <figure class='center'>
             <img src="medias/spectre-infrarouge.png" alt="Schéma du spectre lumineux"/>
             <figcaption><em>Schéma du spectre lumineux</em></figcaption>
         </figure>
-        L'infrarouge est un domaine d'ondes électromagnétiques, qui comprend les ondes avec une longueur située entre 800nm et 10<sup>6</sup>nm. Notre récepteur infrarouge quant à lui capte des ondes avec une longueur aux alentours de 940nm (proche infrarouge).
-        </p>
-        <p>On utilise l'infrarouge car ces ondes sont invisible à l'oeil nu (d'ailleurs on peut voir ces ondes infrarouges avec certains appareils photo). On envoi donc des séquences de flashs lumineux sans que ça ne dérange personne, si l'on avait utilisé une onde lumineuse dans le domaine du visible, on aurait parfois des centaines de flashs sortant de nos télécommandes (l'information envoyée étant codée en signaux lumineux).</p>
         
-        <p><em>On utilise d'ailleurs l'infrarouge tous les jours, les télécommandes de télévision ou autres marchent à l'infrarouge (petite LED située au bout des télécommandes) 
+        <p>
+            L'infrarouge est un domaine d'ondes électromagnétiques, qui comprend les ondes avec une longueur située entre 800nm et 10<sup>6</sup>nm. Notre récepteur infrarouge quant à lui capte des ondes avec une longueur aux alentours de 940nm (proche infrarouge).
+        </p>
+        <p>
+            On utilise l'infrarouge car ces ondes sont invisible à l'oeil nu (d'ailleurs on peut voir ces ondes infrarouges avec certains appareils photo). On envoie donc des séquences de flashs lumineux sans que ça ne dérange personne, si l'on avait utilisé une onde lumineuse dans le domaine du visible, on aurait parfois des centaines de flashs sortant de nos télécommandes (l'information envoyée étant codée en signaux lumineux).
+        </p>
+        
+        <p><em>
+            On utilise d'ailleurs l'infrarouge tous les jours, les télécommandes de télévision ou autres marchent à l'infrarouge (petite LED située au bout des télécommandes) 
         </em></p>
     </article>
     
