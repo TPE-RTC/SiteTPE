@@ -121,9 +121,21 @@ article{
 
 footer{
     text-align: right;
-    margin : 10px;
+    margin : 15px;
 }
 
 #pros{
     text-align: justify;
+}
+
+.floatLeft{
+    float: left;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.floatRight{
+    float: right;
+    margin-left: 15px;
+    border: 1px solid black;
 }
