@@ -63,19 +63,20 @@
 <br/>
 Lorsque du code est écrit dans l'interface de programmation, certains mots apparaissent en différentes couleurs qui clarifient le statut des différents éléments :
      <ul>
-         <li>En orange, apparaissent les mots-clés reconnus par le langage Arduino comme des fonctions existantes. Lorsqu'on sélectionne un mot coloré en orange et qu'on effectue un clic avec le bouton droit de la souris, l'on a la possibilité de choisir « Find in reference » : cette commande ouvre directement 
+         <li>En orange, apparaissent les mots-clés reconnus par le langage Arduino comme des fonctions existantes. Lorsqu'on sélectionne un mot coloré en orange et qu'on effectue un clic avec le bouton droit de la souris, on a la possibilité de choisir « Find in reference » : cette commande ouvre directement 
 		 la documentation de la fonction sélectionnée.</li>
 <br/>
          <li>En bleu, apparaissent les mots-clés reconnus par le langage Arduino comme des constantes.</li>
 <br/>
-         <li>En gris, apparaissent les commentaires qui ne seront pas exécutés dans le programme. Il est utile de bien commenter son code pour s'y retrouver facilement ou pour le transmettre à d'autres personnes. L'on peut déclarer un commentaire de deux manières différentes :</li>
+         <li>En gris, apparaissent les commentaires qui ne seront pas exécutés dans le programme. Il est utile de bien commenter son code pour s'y retrouver facilement ou pour le transmettre à d'autres personnes. On peut déclarer un commentaire de deux manières différentes :</li>
+    </ul>
+	<ol>
+    <li>Dans une ligne de code, tout ce qui se trouve après « // » sera un commentaire.</li>
+    <li>On peut encadrer des commentaires sur plusieurs lignes entre « /* » et « */ ».</li>
 
-    <li>dans une ligne de code, tout ce qui se trouve après « // » sera un commentaire.</li>
-    <li>l'on peut encadrer des commentaires sur plusieurs lignes entre « /* » et « */ ».</li>
-
-	 </ul>
+	</ol>
 <br/>
-Ce codage s'effectue bien evidemment sur un ordinateur, puis est transféré à la carte programmable, qui va le stocker.
+Ce codage s'effectue bien évidemment sur un ordinateur, puis est transféré à la carte programmable, qui va le stocker.
 Ce codage sera activé à l'aide d'une télécommande infrarouge.
 
 <a href="page_connaissances.html#Arduino">Carte Arduino</a>	 
@@ -85,16 +86,17 @@ Ce codage sera activé à l'aide d'une télécommande infrarouge.
 	<article id="electronique">
         <h1 class='center'><u>L'électronique</u></h1>
 	<p>	
-		L'électronique a pour objet le traitement par des composants matériels (avec parfois mise en œuvre de logiciel interne) de ce qui est appelé des signaux électroniques. Un signal est une grandeur qui est considérée comme représentant de manière suffisamment satisfaisante une 
-		grandeur physique donnée et qui porte l'information à traiter. Il s'agit en général d'une tension électrique, d'un courant.
+		L'électronique a pour objet le traitement par des composants matériels (avec parfois la mise en œuvre de logiciels internes) de ce qui est appelé des signaux électroniques. Un signal est une grandeur qui est considérée comme représentant de manière suffisamment satisfaisante une 
+		grandeur physique donnée, et qui porte l'information à traiter. Il s'agit en général d'une tension électrique, d'un courant.
 		<br/>
 		<br/>
-		Un circuit électronique est un ensemble de composants électroniques interconnectés souvent à l'aide d'un circuit imprimé et dont le but est de remplir une fonction. 
+		Un circuit électronique est un ensemble de composants électroniques interconnectés souvent à l'aide d'un circuit imprimé, et dont le but est de remplir une fonction. 
 		<br/>
 		<br/>
-		Ici, notre circuit va permettre la transmission d'énergie à travers les composants, mais aussi d'envoyer les signaux électriques, pour commander la voiture.
+		Ici, notre circuit va permettre de transmettre de l'énergie à travers les composants, mais aussi d'envoyer les signaux électriques, pour commander la voiture.
 		Par exemple, on va pouvoir envoyer l'énergie reçue par les panneaux solaires à la batterie, puis celle-ci jusqu'aux moteurs.
 		Mais aussi envoyer les instructions de la carte programmable aux moteurs.
+		<br/>
 		<br/>
 		<img  height="200" width="300" src="medias/Photos/img_5217.jpg"/>
 		<img  width="300" height="200" src="medias/Photos/img_5301.jpg"/>
@@ -104,15 +106,16 @@ Ce codage sera activé à l'aide d'une télécommande infrarouge.
 	<article id="supports">
         <h1 class='center'><u>Les supports</u></h1>
 		<p>
-		   Pour pouvoir construire cette maquette, il a fallu construire un ou plusieurs supports, qui permettent ainsi de faire les châssis du véhicule.
+		   Pour pouvoir construire cette maquette, il a fallu construire un ou plusieurs supports, permettant de constituer les châssis du véhicule.
 		   <br/>
-		   Le châssis automobile, autrefois en bois, maintenant métallique supporte et rigidifie tous les éléments constituant les véhicules terrestres. 
+		   Le châssis automobile, autrefois en bois, aujourd'hui métallique, supporte et rigidifie tous les éléments constituant les véhicules terrestres. 
 		   <br/>
-		   Cependant nous n'avons pas utilisé un châssis en bois ou en métal, mais un créé à partir d'une imprimante 3D. Cette nouvelle technologie qui existe maintenant
-		   depuis une vingtaine d'années nous a permis de gagner du temps (et de l'argent) et a facilité considerablement la construction de notre prototype.
+		   Cependant nous n'avons pas utilisé un châssis en bois ou en métal : nous l'avons créé à partir d'une imprimante 3D. Cette nouvelle technologie, qui existe maintenant
+		   depuis une vingtaine d'années, nous a permis de gagner du temps (et de l'argent), et a facilité considerablement la construction de notre prototype.
 		   <br/>
-		   Le lycée en possédait une, et nous sommes les seuls à l'avoir utilisé cette année.
-		   Elle nous a permis d'avoir 2 châssis, mesurant chacun 18X9X0.5 cm.
+		   Le lycée possède une imprimante 3D : nous sommes les seuls à l'avoir utilisée cette année.
+		   Elle nous a permis de fabriquer 2 châssis, mesurant chacun 18X9X0.5 cm.
+		   <br/>
 		   <br/>
 		   <img  width="200" height="125" src="medias/Photos/bas.jpg"/>
                 <img  width="200" height="125" src="medias/Photos/haut.jpg"/>
@@ -122,7 +125,7 @@ Ce codage sera activé à l'aide d'une télécommande infrarouge.
     </article>
 		
 	<article id="medias">
-        <h1 class='center'><u>Photo du Montage</u></h1>
+        <h1 class='center'><u>Photos du Montage</u></h1>
 		
 		<img  width="200" height="200" src="medias/Photos/m1.jpeg"/>
 		<img  width="200" height="200" src="medias/Photos/m2.jpeg"/>
